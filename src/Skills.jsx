@@ -8,22 +8,22 @@ const Skills = () => {
 
             <div className="skill-imgs">
                 <div>
-                    <img src="../public/js.png" alt=""  className="skill-img" />
+                    <img src="/js.png" alt=""  className="skill-img" />
                     <p>Java Script</p>
                 </div>
 
                 <div>
-                    <img src="../public/react.png" alt="" className="skill-img" />
+                    <img src="/react.png" alt="" className="skill-img" />
                     <p>React</p>
                 </div>
 
                 <div>
-                    <img src="../public/postgre.png" alt="" className="skill-img" />
+                    <img src="/postgre.png" alt="" className="skill-img" />
                     <p>PostgreSQL</p>
                 </div>
 
                 <div>
-                    <img src="../public/java.png" alt="" className="skill-img" />
+                    <img src="/java.png" alt="" className="skill-img" />
                     <p>Java</p>
                 </div>
 

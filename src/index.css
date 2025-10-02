@@ -27,9 +27,9 @@ body{
 
 .stars {
   width: 150%;
-  height: 100%;      /* artık sadece ekran boyu kadar */
+  height: 100%;
   background: url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
-  position: fixed;    /* fixed yapınca sayfa kaydırınca da sabit kalır */
+  position: fixed;
   top: 0;
   left: 0;
   animation: moveStars 120s linear infinite;
@@ -46,7 +46,7 @@ body{
   }
 }
 
-/* parlayan noktalar */
+
 .twinkle {
   position: absolute;
   width: 2px;
@@ -260,7 +260,7 @@ span{
 
 .skillpart {
   display: flex;
-  flex-direction: column; /* başlık üstte, resimler altta */
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
@@ -274,7 +274,7 @@ span{
 .skill-imgs {
   display: flex;
   justify-content: center;
-  gap: 50px; /* resimler arası boşluk */
+  gap: 50px;
 }
 
 .skill-imgs p {
@@ -282,7 +282,7 @@ span{
 }
 
 .skill-imgs div {
-  text-align: center;   /* yazıyı ortala */
+  text-align: center;
 }
 
 .fa-html5 {
@@ -303,9 +303,41 @@ span{
   width: 80px;
   height: 75px;
   display: block;
-  margin: 0 auto;       /* resmi de ortala */
+  margin: 0 auto;
 }
 
+.project-title {
+
+    margin-top: 150px;
+    text-align: center; /* BURAYA BAK */
+    margin-bottom: 70px;
+}
+
+.project-container {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.pblueprint {
+  border: 2px solid #0b4ddb;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: start;
+  background: #333232;
+}
+
+.pblueprint p {
+    font-size: 15px;
+}
+
+.pblueprint img {
+  max-width: 100%;
+  border-radius: 8px;
+}
 
 
 @keyframes cursor{

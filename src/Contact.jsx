@@ -3,7 +3,7 @@ const Contact = () => {
 
         <section>
             <div>
-
+                
             </div>
         </section>
     )
