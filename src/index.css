@@ -266,15 +266,18 @@ span{
 }
 
 .skill-title {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   margin-top: 100px;
   font-size: x-large;
+  display: flex;
+  justify-content: center;
 }
 
 .skill-imgs {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-top: 70px;
 }
 
 .skill-imgs p {
@@ -335,9 +338,39 @@ span{
 }
 
 .pblueprint img {
-  max-width: 100%;
+  width: 260px;
+  height: 200px;
   border-radius: 8px;
 }
+
+.tags {
+    display: flex;
+    gap: 10px;
+    font-size: small;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.pblueprint {
+    cursor: pointer;
+}
+
+.pblueprint:hover {
+    transform: scale(1.1);
+}
+
+
+.pblueprint a {
+  color: white;            /* link rengi */
+  text-decoration: none;   /* alt çizgi kalksın */
+  display: block;          /* tüm kutu tıklanabilir olsun */
+}
+
+.pblueprint a:visited {
+  color: white;            /* ziyaret edilmiş linkler de beyaz */
+}
+
+
 
 
 @keyframes cursor{

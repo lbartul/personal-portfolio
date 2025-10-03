@@ -4,12 +4,13 @@ const Skills = () => {
         <section className="skillpart">
             <div>
                 <h1 className="skill-title">Skills</h1>
+                <p>I am still learning and improving my self so there will be more and more.</p>
             </div>
 
             <div className="skill-imgs">
                 <div>
                     <img src="/js.png" alt=""  className="skill-img" />
-                    <p>Java Script</p>
+                    <p>JavaScript</p>
                 </div>
 
                 <div>
@@ -35,6 +36,11 @@ const Skills = () => {
                 <div>
                     <i class="fa-brands fa-css3-alt"></i>
                     <p>CSS 3</p>
+                </div>
+
+                <div>
+                    <img src="/spring.jpg" alt="" className="skill-img" />
+                    <p>React</p>
                 </div>
             </div>
         </section>

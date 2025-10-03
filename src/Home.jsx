@@ -23,10 +23,9 @@ const Home = () => {
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/bartu-aksu-b949ab34a/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/lbartul" target="_blank"><i className="fa-brands fa-github"></i></a>
-          <a href="#" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
-          <a href="#" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/lbaartul/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+          <a href="mailto:lbartuaksul@gmail.com?subject=İletişim&body=Merhaba Bartu,"><i class="fa-solid fa-envelope"></i></a>
         </div>
-        <a href="#" className="btn">Contact with me!</a>
       </div>
     </section>
   );
