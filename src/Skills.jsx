@@ -40,7 +40,7 @@ const Skills = () => {
 
                 <div>
                     <img src="/spring.jpg" alt="" className="skill-img" />
-                    <p>React</p>
+                    <p>Spring Boot</p>
                 </div>
             </div>
         </section>
