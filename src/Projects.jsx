@@ -23,7 +23,7 @@ const Projects = () => {
                 <div className="pblueprint">
                     <a href="https://github.com/lbartul/Twitter-api-Project" target="_blank">
                         <img src="/twapi.png" alt="Project 3" />
-                        <p className="project-p">This is my Twitter-Api project (Still working on it)</p> 
+                        <p className="project-p">This is my Twitter-Api project</p> 
                         <div className="tags">
                             <span>Java</span>
                             <span>Spring Boot</span>
